@@ -1,4 +1,6 @@
+import React from 'react'
 import styled from 'styled-components';
+
 const Button = styled.button`
   background: #1FB6FF;
   border: none;
@@ -18,4 +20,5 @@ const Button = styled.button`
     background: #009EEB;
   }
 `;
-export default Button;
+
+export {Button}
