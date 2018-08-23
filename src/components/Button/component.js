@@ -10,7 +10,7 @@ const ButtonContainer = styled.button`
   padding: 0.5em 2em;
   border-radius: 20px;
   
-  background: ${props => props.primary ? 'var(--primary-color)' : 'white'};
+  background: ${props => props.primary ? 'red' : 'white'};
   color: ${props => props.primary ? 'white' : 'var(--secondary-color)'};
   border: 2px solid ${props => props.primary ? 'var(--primary-color)' : 'var(--secondary-color)'};
 `;
